@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://taskmanagementsystem-akbn.onrender.com/api";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
